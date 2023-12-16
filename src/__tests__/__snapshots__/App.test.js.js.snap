@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First snapshot test 1`] = `
+<div>
+  <div
+    className="background-image"
+  />
+  <div
+    className="container"
+  >
+    <header
+      className="center"
+    >
+      <img
+        src="mocked-file-path"
+      />
+    </header>
+    <section
+      className="search"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoFocus={true}
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Find a character"
+          type="text"
+          value=""
+        />
+      </form>
+    </section>
+    <section
+      className="contents"
+    >
+      <h2>
+        No results found.
+      </h2>
+    </section>
+  </div>
+</div>
+`;
